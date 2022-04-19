@@ -1,0 +1,28 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.1px solid #e67e22;
+}
+
+.list-item form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-item__food-name {
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+.list-item__tag {
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-style: italic;
+}
+.list-item__price {
+  color: #d35400;
+  font-weight: 500;
+  font-size: 2rem;
+}

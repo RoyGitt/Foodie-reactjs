@@ -1,0 +1,29 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+}
+
+.modal-overlay {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  width: 80rem;
+  max-width: 80%;
+  background-color: #fff;
+  padding: 3rem 6rem;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 550px) {
+  .modal-overlay {
+    max-width: 75%;
+    padding: 3rem 2rem;
+  }
+}

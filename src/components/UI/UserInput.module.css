@@ -1,0 +1,21 @@
+.list-item__control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.list-item__control label {
+  margin-right: 1rem;
+  font-weight: 700;
+}
+.list-item__control input {
+  background-color: transparent;
+  color: #333;
+
+  font-family: inherit;
+  font-size: 2rem;
+  width: 3rem;
+  border: 1px solid #e67e22;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+}

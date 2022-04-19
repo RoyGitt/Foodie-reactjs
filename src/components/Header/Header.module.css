@@ -1,0 +1,89 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #d35400;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+  z-index: 4;
+}
+
+.header div {
+  padding: 1rem 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.header h1 {
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.counter {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 2rem;
+  background-color: #d35400;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+}
+
+.pulse {
+  animation-name: pulse;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.shopping-cart-icon {
+  font-size: 3.5rem !important;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+.electric-icon {
+  font-size: 5rem !important;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .header div {
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .shopping-cart-icon {
+    font-size: 2.5rem !important;
+  }
+  .header h1 {
+    font-size: 3rem;
+  }
+  .electric-icon {
+    font-size: 2.5rem !important;
+  }
+  .counter {
+    padding: 0.5rem 1rem;
+  }
+}
+@media screen and (max-width: 335px) {
+  .shopping-cart-icon {
+    font-size: 2rem !important;
+  }
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  .electric-icon {
+    font-size: 2rem !important;
+  }
+}
