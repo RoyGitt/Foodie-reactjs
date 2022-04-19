@@ -7,7 +7,7 @@ const CartItem = (props) => {
       <div className={styles["cart-item__info"]}>
         <h2>{props.food}</h2>
         <div>
-          <p>$ {props.price}</p>
+          <p>₹ {props.price}</p>
           <p>x {props.amount}</p>
         </div>
       </div>

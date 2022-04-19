@@ -37,7 +37,7 @@ const MenuItem = (props) => {
         {" "}
         <h2 className={styles["list-item__food-name"]}>{props.food}</h2>
         <h3 className={styles["list-item__tag"]}>{props.tag}</h3>
-        <h3 className={styles["list-item__price"]}>$ {props.price}</h3>
+        <h3 className={styles["list-item__price"]}>₹ {props.price}</h3>
       </div>
       <form onSubmit={foodInfoHanlder}>
         <UserInput
