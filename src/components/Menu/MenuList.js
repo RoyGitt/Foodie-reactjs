@@ -3,24 +3,29 @@ import styles from "./MenuList.module.css";
 import "animate.css";
 
 const menuData = [
-  { id: "e1", food: "Sushi", tag: "Finest fish and veggies", price: 22.99 },
+  {
+    id: "e1",
+    food: "Double down Burger",
+    tag: "More meat less Bun",
+    price: 350,
+  },
   {
     id: "e2",
-    food: "Schnitzel",
-    tag: "A german specialty!",
-    price: 16.5,
+    food: "Fried Chicken",
+    tag: "Juicy chicken fried to perfection",
+    price: 150,
   },
   {
     id: "e3",
-    food: "Barbecue Burger",
-    tag: "American, raw, meaty",
-    price: 12.99,
+    food: "Chicken Salad",
+    tag: "Fresh veggies with chicken",
+    price: 200,
   },
   {
     id: "e4",
-    food: "Green Bowl",
-    tag: "Healthy...and green...  ",
-    price: 18.99,
+    food: "Popcorn Chicken",
+    tag: "Juicy bite size chicken with a crispy delight",
+    price: 250,
   },
 ];
 
