@@ -48,7 +48,7 @@ const Cart = (props) => {
         <ul className={styles["cart-modal__list"]}>{cartContent}</ul>
         <div className={styles["cart-modal__value"]}>
           <p>Total Amount</p>
-          <p>$ {cartCtx.totalCartValue.toFixed(2)}</p>
+          <p> ₹ {cartCtx.totalCartValue.toFixed(2)}</p>
         </div>
         <div className={styles["cart-buttons"]}>
           <Button
